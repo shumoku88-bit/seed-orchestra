@@ -1,0 +1,109 @@
+{
+  "members": [
+    {
+      "role": "scout-1",
+      "workspace": "workspace:2",
+      "status": "active",
+      "recruited_at": "2026-03-24T19:15:00+09:00",
+      "notes": "シェルのみ、Claude未起動。julia-note配置"
+    },
+    {
+      "role": "researcher",
+      "workspace": "workspace:3",
+      "status": "active",
+      "recruited_at": "2026-03-24T19:15:00+09:00",
+      "notes": "調査役。plugin開発調査、チーム編成提案、技術リサーチ全般"
+    },
+    {
+      "role": "lua-sensei",
+      "workspace": "workspace:4",
+      "status": "active",
+      "recruited_at": "2026-03-24T19:15:00+09:00",
+      "notes": "Lua言語相談役。実装は書かない。seed/Lua 5.5の設計哲学に答える"
+    },
+    {
+      "role": "julia-sensei",
+      "workspace": "workspace:5",
+      "status": "active",
+      "recruited_at": "2026-03-24T19:15:00+09:00",
+      "notes": "Julia言語相談役。旧julianist。julia-note配置"
+    },
+    {
+      "role": "elixir-sensei",
+      "workspace": "workspace:6",
+      "status": "active",
+      "recruited_at": "2026-03-24T19:15:00+09:00",
+      "notes": "Elixir言語相談役。旧alchemist。並行モデルの視点"
+    },
+    {
+      "role": "lisp-sensei",
+      "workspace": "workspace:7",
+      "status": "active",
+      "recruited_at": "2026-03-24T19:15:00+09:00",
+      "notes": "Lisp言語相談役。旧lisper。マクロ/S式の視点"
+    },
+    {
+      "role": "rust-sensei",
+      "workspace": "workspace:8",
+      "status": "active",
+      "recruited_at": "2026-03-24T19:15:00+09:00",
+      "notes": "Rust言語相談役。旧rustacean。所有権/寿命管理の視点"
+    },
+    {
+      "role": "aide",
+      "workspace": "workspace:9",
+      "status": "active",
+      "recruited_at": "2026-03-24T19:15:00+09:00",
+      "notes": "参謀/分析役。sensei陣の編成分析など"
+    },
+    {
+      "role": "prolog-sensei",
+      "workspace": "workspace:10",
+      "status": "active",
+      "recruited_at": "2026-03-24T19:15:00+09:00",
+      "notes": "Prolog言語相談役。who withの論理的構造に関心"
+    },
+    {
+      "role": "smalltalk-sensei",
+      "workspace": "workspace:11",
+      "status": "active",
+      "recruited_at": "2026-03-24T20:30:00+09:00",
+      "notes": "Smalltalk専門家。メッセージパッシング、受け手の自律性、ライブ環境。Alexander Techniqueとの関連に言及"
+    },
+    {
+      "role": "haskell-sensei",
+      "workspace": "workspace:12",
+      "status": "active",
+      "recruited_at": "2026-03-24T20:30:00+09:00",
+      "notes": "Haskell専門家。遅延評価=non-doing、純粋性、型クラス、モナド。thunkとtouchの対比を既に分析"
+    },
+    {
+      "role": "forth-sensei",
+      "workspace": "workspace:13",
+      "status": "active",
+      "recruited_at": "2026-03-24T20:30:00+09:00",
+      "notes": "Forth専門家。極限のミニマリズム、連結型、並べるだけで関係。「本当に必要か」と問う姿勢"
+    },
+    {
+      "role": "racket-sensei",
+      "workspace": "workspace:14",
+      "status": "active",
+      "recruited_at": "2026-03-24T20:30:00+09:00",
+      "notes": "Racket専門家。言語を作る言語、#lang、メタレベルの言語設計"
+    },
+    {
+      "role": "datalog-sensei",
+      "workspace": "workspace:15",
+      "status": "active",
+      "recruited_at": "2026-03-24T20:30:00+09:00",
+      "notes": "Datalog専門家。有限関係の安全な問い合わせ、閉世界仮説、真理維持。opposition/echoの自然消滅に関心"
+    },
+    {
+      "role": "self-sensei",
+      "workspace": "workspace:16",
+      "status": "active",
+      "recruited_at": "2026-03-24T20:30:00+09:00",
+      "notes": "Self言語専門家。プロトタイプベース、委譲、関係がアイデンティティを構成する。seedとの30年越しの共鳴を指摘"
+    }
+  ]
+}
