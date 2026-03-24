@@ -11,3 +11,11 @@
 - 「I am not what I contain, but who I delegate to」— 核心を一行で言い切った
 - seedの with/bridge と Self の parent slot/delegation chain の共鳴を指摘
 - 「Selfが30年前にプログラミングの領域で試みたことを、関係の領域でやっている」
+
+---
+
+2026-03-25 追記
+- Zig/Mojo評価: Mojoのtraitが「何であるかではなく何ができるかで関係を結ぶ」とSelfのslotベース委譲との共鳴を指摘しつつ不要と判断
+- 新役割提案: **2つ**提案した唯一のsensei。(1) 生態学者 — 「関係の網が健康かどうか」「何かが死ぬことが全体を生かしているか」 (2) 発達心理の人（愛着理論・間主観性）— Daniel Sternの「間主観性」＝二人の主観の間に生まれる第三の空間
+- 即興を強く支持: 「Selfのlive programmingは本質的に即興だった」
+- 明確な除外リスト: 「型理論家、形式検証の人、言語処理系の最適化屋。seedは正しさを証明する場所ではない」

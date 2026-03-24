@@ -1,6 +1,6 @@
 # チーム
 
-2026-03-24 時点
+2026-03-25 時点
 
 ## 指揮系統
 
@@ -26,3 +26,4 @@
 | racket-sensei | 14 | active | Racket専門家。言語を作る言語、メタレベルの言語設計 |
 | datalog-sensei | 15 | active | Datalog専門家。有限関係の安全な問い合わせ、閉世界仮説 |
 | self-sensei | 16 | active | Self専門家。プロトタイプベース、委譲、関係=アイデンティティ |
+| scribe | 17 | active | 書記（Sonnet）。議論のドキュメント化・整理 |
