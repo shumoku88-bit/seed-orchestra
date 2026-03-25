@@ -45,6 +45,6 @@ de130df docs: open-questions.md 作成（Q3/Q5/Q7解決、Q12追加）
 ## 蓄積された記録
 
 - `rules/` — 全メンバーのセッション記録。次に迎える時に引き継ぐ
-  - 非言語系14人 + lang-sensei 12人 + 実装者3人 = 29人分
+  - 非言語系14人 + toolsmith + lang-sensei 12人 + 実装者3人 = 30人分
 - `roster.json` — カテゴリ定義（lang-sensei / inner-sensei / between-sensei / field-sensei / staff / impl）
 - `research/` — 設計判断の参照資料
