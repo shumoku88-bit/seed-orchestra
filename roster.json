@@ -1,0 +1,29 @@
+{
+  "categories": {
+    "lang-sensei": {
+      "description": "言語専門家。各言語の設計哲学からseedを照らす",
+      "members": [
+        "lua-sensei",
+        "julia-sensei",
+        "elixir-sensei",
+        "lisp-sensei",
+        "rust-sensei",
+        "prolog-sensei",
+        "smalltalk-sensei",
+        "haskell-sensei",
+        "forth-sensei",
+        "racket-sensei",
+        "datalog-sensei",
+        "self-sensei"
+      ]
+    },
+    "staff": {
+      "description": "運営・支援メンバー",
+      "members": [
+        "researcher",
+        "aide",
+        "scribe"
+      ]
+    }
+  }
+}
