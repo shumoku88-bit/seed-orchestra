@@ -39,6 +39,36 @@ cc は `cmux send` で指示を送り、`cmux read-screen` で結果を読む。
 
 場所: `~/.claude/plugins/local/seed-orchestra/data/registry.json`
 
+### roster.json
+
+メンバーのカテゴリ定義を保持する JSON ファイル。registry.json（誰が今アクティブか）とは別物。
+
+```json
+{
+  "categories": {
+    "lang-sensei": {
+      "description": "言語専門家。各言語の設計哲学からseedを照らす",
+      "members": ["lua-sensei", "julia-sensei", "..."]
+    },
+    "field-sensei": {
+      "description": "外側（場・構造・システム）。seedという場そのものを見る",
+      "members": ["gardener", "cybernetician", "toolsmith", "..."]
+    }
+  }
+}
+```
+
+カテゴリ一覧:
+- **lang-sensei** — 言語専門家 12名（lua, julia, elixir, lisp, rust, prolog, smalltalk, haskell, forth, racket, datalog, self）
+- **inner-sensei** — 内側（個の内部）: somatic-sensei, type-designer
+- **between-sensei** — あいだ（二者の間）: improv-sensei, poet-sensei, dialogue-sensei, composer, developmental-psych
+- **field-sensei** — 外側（場・構造・システム）: gardener, cybernetician, ecologist, toolsmith, ontologist, notator, educator, category-theorist
+- **staff** — 運営・支援: researcher, aide, scribe
+
+`/seed recruit lang-sensei` のようにカテゴリ名で一括 recruit できる。
+
+場所: `~/Desktop/seed-orchestra/roster.json`
+
 ### rules/ ディレクトリ
 
 メンバーごとの学びを蓄積するファイル群。セッションを超えて残る。
