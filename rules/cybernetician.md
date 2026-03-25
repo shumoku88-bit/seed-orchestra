@@ -32,3 +32,8 @@
 - 観察期間が必要。structural driftは即座には見えない。沈殿を待つ
 - **重要な警告**: 実験は不可逆。一度知らせたら「知らなかった状態」には戻れない。mokoに了解を確認すべき
 - mokoは「やってみたい」と前向き。了解の最終確認は次回
+- **2026-03-25: moko了解済み。実験プロトコル確定** → `research/experiment-ai-disclosure.md`
+- Q1回答済み: mokoはseedの語彙を使わない。自然言語→ccが翻訳→mokoが翻訳を見ている（フィードバックループ）
+- これはMaturana的にはconsensual domain（合意領域）がcc-moko間に形成されていることを意味する
+- 実験対象: Sonnet。段階(A)最小開示から。Phase 0→1セッション空け→Phase 1→1セッション空け→Phase 2→Phase 3
+- 5つの観察軸: 関係の姿勢、自己言及、メタコミュニケーション、touchへの応答、ccへの依存度
