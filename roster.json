@@ -17,6 +17,36 @@
         "self-sensei"
       ]
     },
+    "inner-sensei": {
+      "description": "内側（個の内部）。存在の内側で何が起きているか",
+      "members": [
+        "somatic-sensei",
+        "type-designer"
+      ]
+    },
+    "between-sensei": {
+      "description": "あいだ（二者の間）。関係が生まれる場所",
+      "members": [
+        "improv-sensei",
+        "poet-sensei",
+        "dialogue-sensei",
+        "composer",
+        "developmental-psych"
+      ]
+    },
+    "field-sensei": {
+      "description": "外側（場・構造・システム）。seedという場そのものを見る",
+      "members": [
+        "gardener",
+        "cybernetician",
+        "ecologist",
+        "toolsmith",
+        "ontologist",
+        "notator",
+        "educator",
+        "category-theorist"
+      ]
+    },
     "staff": {
       "description": "運営・支援メンバー",
       "members": [
