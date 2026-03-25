@@ -54,6 +54,14 @@
         "aide",
         "scribe"
       ]
+    },
+    "impl": {
+      "description": "実装者。コードを書く人。臨時雇用、タスク完了で送り出す",
+      "members": [
+        "impl-codex",
+        "impl-opus",
+        "impl-sonnet"
+      ]
     }
   }
 }

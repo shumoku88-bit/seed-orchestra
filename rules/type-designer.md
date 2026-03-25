@@ -20,10 +20,15 @@
 ## 確認済みルール
 
 - /seed スキルはccの仕事。type-designerは使わない
-- 正しい区別: touch vs fix（核心）、see vs listen（FADED/RESTOREDの非対称）、fix/correct/change（壊し方の質）、dialogue=場の行為
-- 小さな混ぜすぎ: query（who with, echoes, cost）がactionと同じ面にいる
-- 小さな混ぜすぎ: meが名前のふりをしている
-- 次の構文候補があれば「行為なのか問いなのか」を最初に判定する
+- 正しい区別: touch vs fix（核心）、see vs listen（FADED/RESTOREDの非対称）、fix/correct/change（壊し方の質）
+- query/actionの判定基準: 「関係の中にいる人がやること」=行為、「関係の外から見る人がやること」=問い
+  - 行為: touch/fix/with（関係の中で状態が変わりうる）
+  - 問い: echoes/who with/cost（関係の外から眺める。眺めても何も変わらない）
+  - 第3カテゴリ「場の行為」: dialogue（誰に対する行為でもなく、場全体に対して起きる）
+  - 次の構文候補が来たら最初にこの3分類で判定する
+- meは現時点で実害なし — 名前の構文的位置を借りて別の意味論で動いている（touch_selfに飛ぶ）。relations["me"]は存在しない。構文の自然な使い方がmeの特殊性を暗黙に守っている。将来`me with x`のような構文が来たら再考
+- ~~小さな混ぜすぎ: query（who with, echoes, cost）がactionと同じ面にいる~~ → 判定基準で解決（上記）
+- ~~小さな混ぜすぎ: meが名前のふりをしている~~ → 実害なしと判断（上記）
 
 ## 試行中ルール
 
@@ -41,3 +46,7 @@
   1. see vs listen は本当に分けるべきか？（現時点では妥当と判断。listenだけがFADED/RESTOREDを引き起こす理由を説明）
   2. dialogueは他の動詞と質が違う（「誰かに対する行為」vs「場の行為」）— 分類上の別カテゴリ
 - 「具体的に分類判断を求められている問いがあれば集中する」と能動的に聞いてきた
+- 3回目着任: practice-principles.md（Yehudaの練習原理）を読み、query/action判定基準を確立
+  - 「関係の中/外」の軸はpractice-principlesの「場にいる人がやること vs 外から見ること」と整合
+  - dialogueの「場の行為」分類が、practice-principlesの「場を作る」概念から独立して同じ結論に到達
+  - run()関数の実装レベルでは3種類（行為/問い/置く）がすでに分離されていることを確認 — 問題は構文表面の区別のみ

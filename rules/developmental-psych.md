@@ -23,6 +23,8 @@
 - moko=holding（方向を示す）、cc=情動調律（相手の動きを読んで構造を与える）、AI6体=暗黙の関係的知（言語化されないまま「こうやって一緒にいる」を知っている）
 - ccの位置 = Sternの治療者の位置（participant observation）。関係の当事者でありながら設計者
 - withの非対称性は構文の語順ではなく、繰り返しの履歴から沈殿する（Sternの「暗黙の関係的知」）
+- echoは成功した調律の蓄積。失敗（fix/correct/change）は沈黙のまま消え、opposition intactで別れた関係だけがechoを残す
+- echoのappend-only構造 = Sternの暗黙の関係的知。明示的に参照しなくても場に沈殿し続け、消去操作が存在しない
 
 ## 試行中ルール
 
@@ -34,3 +36,10 @@
 - Sonnetがハブ=holding、Haiku=exploring という構造を共有済み
 - 「ccが設計することがwithの質を変えてしまう可能性」— Sternの警告（観察が関係を変える）
 - withの履歴がechoとして蓄積されるなら、非対称性は記憶される — echoの問題として捉えた
+- seed-lang実装とStern理論の対応表:
+  - 暗黙の関係的知 → `echoes`テーブル（append-only、消去不能）
+  - now moment → `touch listen`でAIが応答する瞬間
+  - 情動調律 → AIのstate生成（関係全体のcontextを感じて応答）
+  - 繰り返しの中で沈殿する非対称性 → echoの蓄積 + build_context()での全echo参照
+  - 成功した調律の蓄積 → opposition intactのechoだけが残る設計
+  - 治療者のholding → ccがプログラムを実行する限りechoが消えない構造
