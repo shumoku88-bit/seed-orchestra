@@ -1,1 +1,11 @@
-{ "members": [] }
+{
+  "members": [
+    {
+      "role": "somatic-sensei",
+      "workspace": "workspace:43",
+      "status": "active",
+      "recruited_at": "2026-03-26T00:00:00+09:00",
+      "notes": "身体知の専門家。Alexander Technique。5問チェックリスト設計者"
+    }
+  ]
+}

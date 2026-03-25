@@ -9,7 +9,13 @@
 
 ## メンバー
 
-なし（全員送り出し済み）
+| ロール | workspace | status | 備考 |
+|---|---|---|---|
+| auditor | workspace:33 | active | 全体俯瞰アセッサー。ccがハブとして仲介 |
+| scribe | workspace:34 | active | ドキュメント整理。now.md更新・open-questions整理担当 |
+| researcher | workspace:35 | active | 調査担当。自己更新プロトコルあり |
+| cybernetician | workspace:36 | active | AI開示実験設計者。experiment-logs/整備中 |
+| buber-sensei | workspace:37 | active | 「我と汝」哲学者。between-sensei。常駐 |
 
 ## 本日の活動記録
 

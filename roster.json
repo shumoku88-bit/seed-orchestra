@@ -24,6 +24,16 @@
         "type-designer"
       ]
     },
+    "observer": {
+      "description": "常駐オブザーバー。セッションを超えて常にいる。求められれば問いを返す",
+      "members": [
+        "buber-sensei",
+        "zizek-sensei",
+        "feynman-sensei",
+        "oka-sensei",
+        "wiles-sensei"
+      ]
+    },
     "between-sensei": {
       "description": "あいだ（二者の間）。関係が生まれる場所",
       "members": [
@@ -52,7 +62,9 @@
       "members": [
         "researcher",
         "aide",
-        "scribe"
+        "scribe",
+        "auditor",
+        "scout-1"
       ]
     },
     "impl": {

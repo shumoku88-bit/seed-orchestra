@@ -21,6 +21,14 @@ cmux send-key --workspace workspace:N enter
 - テスト通してからgit commit
 - 日本語のコミットメッセージ
 
+## 試行中ルール
+
+（まだなし）
+
+## 却下したルール
+
+（まだなし）
+
 ## 観察メモ
 - 2026-03-25 初回: dialogue dissolve（開放型対話モード）を設計→実装
   - 設計フェーズ: 4段階の実装計画（A→B→C→D）を立て、Phase 0との依存関係を整理

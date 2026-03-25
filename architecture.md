@@ -37,7 +37,7 @@ cc は `cmux send` で指示を送り、`cmux read-screen` で結果を読む。
 }
 ```
 
-場所: `~/.claude/plugins/local/seed-orchestra/data/registry.json`
+場所: `~/Desktop/seed-orchestra/registry.json`
 
 ### roster.json
 
@@ -63,7 +63,9 @@ cc は `cmux send` で指示を送り、`cmux read-screen` で結果を読む。
 - **inner-sensei** — 内側（個の内部）: somatic-sensei, type-designer
 - **between-sensei** — あいだ（二者の間）: improv-sensei, poet-sensei, dialogue-sensei, composer, developmental-psych
 - **field-sensei** — 外側（場・構造・システム）: gardener, cybernetician, ecologist, toolsmith, ontologist, notator, educator, category-theorist
-- **staff** — 運営・支援: researcher, aide, scribe
+- **observer** — 常駐オブザーバー。セッションをまたいで常にいる: buber-sensei, zizek-sensei, feynman-sensei, oka-sensei, wiles-sensei
+- **staff** — 運営・支援: researcher, aide, scribe, auditor, scout-1
+- **impl** — 実装者。コードを書く。タスク完了で送り出す: impl-codex, impl-opus, impl-sonnet
 
 `/seed recruit lang-sensei` のようにカテゴリ名で一括 recruit できる。
 
@@ -71,9 +73,22 @@ cc は `cmux send` で指示を送り、`cmux read-screen` で結果を読む。
 
 ### rules/ ディレクトリ
 
-メンバーごとの学びを蓄積するファイル群。セッションを超えて残る。
+**seed orchestra の記憶・結晶化システム。**
 
-recruit 時に「確認済みルール」を自動で一つずつ教え直す。これが seed orchestra の記憶。
+メンバーごとに `rules/<role>.md` が存在し、セッションをまたいで残る。
+
+```
+観察メモ → 試行中ルール → 確認済みルール
+（観察）    （実験中）      （結晶化済み）
+```
+
+- **観察メモ**: cc が listen/check で気づいたことを記録する
+- **試行中ルール**: /seed teach で送ったルール。効果を確認中
+- **確認済みルール**: recruit 時に必ず伝える。これがメンバーの記憶の核
+- **却下したルール**: 失敗した試みも残す。同じ過ちを繰り返さないため
+
+**全メンバー共通ルール**: Claudeのメモリ機能（Recall/Remember等）は使わない。
+全メンバーが同じDBを共有するため混在する。知識は必ず rules/ か research/ に書く。
 
 ### research/ ディレクトリ
 

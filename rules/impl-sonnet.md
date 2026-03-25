@@ -20,6 +20,14 @@ cmux send-key --workspace workspace:N enter
 - テスト通してからgit commit
 - 日本語のコミットメッセージ
 
+## 試行中ルール
+
+（まだなし）
+
+## 却下したルール
+
+（まだなし）
+
 ## 観察メモ
 - 2026-03-25 初回: 定型タスク3件を全完了
   - Task A: seed-lang.lua冒頭にv0凍結コメント追加 (5212eab)

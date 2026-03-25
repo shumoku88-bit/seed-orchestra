@@ -22,6 +22,14 @@ cmux send-key --workspace workspace:N enter
 - 日本語のコミットメッセージ
 - 順序依存のタスクは一人で通す（並列化しない）
 
+## 試行中ルール
+
+（まだなし）
+
+## 却下したルール
+
+（まだなし）
+
 ## 観察メモ
 - 2026-03-25 初回: Phase 0（State整理）全3ステップを完遂
   - Step 1: :sys.replace_state除去 (857479d)
